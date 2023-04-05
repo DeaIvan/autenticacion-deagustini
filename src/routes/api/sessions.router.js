@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import userModel from '../../dao/models/users.model.js'
+import userModel from '../../dao/models/usersModel.js'
 import passport from 'passport';
 import { createHash, isValidPassword } from '../../utils.js';
 
